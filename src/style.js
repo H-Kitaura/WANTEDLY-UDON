@@ -33,6 +33,7 @@ const styles = {
   bgSubColor: "bg-gray-100 dark:bg-neutral-900",
   bgCardColor: "bg-stone-100 dark:bg-neutral-800",
   bgGradientColor: "bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 dark:from-neutral-800 dark:to-black",
+  bg2Gradation: "bg-gradient-to-bl from-[#618feb] to-[#32bdd9] ",
   textColor: "text-black dark:text-white",
   textMenuColor: "text-my-brown dark:text-white",
   textHeadingColor: "text-my-gray dark:text-white",

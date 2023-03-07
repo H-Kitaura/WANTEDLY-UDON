@@ -6,15 +6,14 @@ import Sec03 from './components/Sec03';
 import TopImage from './components/TopImage';
 import SubTitle from './components/SubTitle';
 import Slider from './components/Slider';
+import Price from './components/Price';
 import styles from './style';
-
 
 
 function App() {  
   return (
   <main>
-    <div className={`${styles.padding}${styles.flexCenter}`}>
-      <div className='bg-[#08B0CB]'>
+      <div className={`${styles.bg2Gradation}`}>
         <Header />
         <TopImage />
         <Slider />
@@ -23,7 +22,7 @@ function App() {
       <Sec01 />
       <Sec02 />
       <Sec03 />
-    </div>
+      <Price />
   </main>
 
 
