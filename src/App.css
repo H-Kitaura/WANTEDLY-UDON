@@ -1,0 +1,16 @@
+@keyframes loop {
+  0% {
+    /* アニメーションの初期状態 */
+  }
+
+  100% {
+    /* アニメーションの最終状態 */
+  }
+}
+
+.animate-loop {
+  animation-name: loop;
+  animation-duration: 32s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
