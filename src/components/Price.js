@@ -4,18 +4,18 @@ import styles from '../style'
 const Price = () => {
   return (
     <section>
-    <div className="m-[100] relative">
-        <div className={`${styles.boxWidth}`}>
-          <div className={`${styles.heading1} text-white ${styles.bg2Gradation}`}>成果報酬なし。
-              <p> 採用コストを抑えられます。</p>
+      <div className={`p-[40px] mx-auto ${styles.boxWidth} ${styles.bg2Gradation} mx-auto relative shadow-xl flex`}>
+          <div className="w-[600px]">
+              <div className={`${styles.heading1} text-white`}>成果報酬なし。
+                  <p> 採用コストを抑えられます。</p>
+              </div>
+              <div className="text-white text-sm mt-2 leading-7">
+                Wantedlyは、運用の工夫で採用単価が抑えられ、使えば使うほどお客様に採用効果を感じていただけるよう、成果報酬のかからない毎月定額の料金モデルを採用しています。
+              </div>
           </div>
-          <div className="">
-            Wantedlyは、運用の工夫で採用単価が抑えられ、使えば使うほどお客様に採用効果を感じていただけるよう、成果報酬のかからない毎月定額の料金モデルを採用しています。
-          </div>
-          <button className="h-14 w-80 rounded-xl bg-gray-700 text-white leading-10 text-base mt-14">料金表を見る</button>
-        </div>
-    </div>
-</section>
+        <button className="absolute h-14 w-[220px] rounded-3xl bg-white text-gray-700 leading-10 text-[16px] mt-14 right-[120px]">料金表を見る</button>
+      </div>
+  </section>
 )
 }
 

@@ -7,6 +7,12 @@ import TopImage from './components/TopImage';
 import SubTitle from './components/SubTitle';
 import Slider from './components/Slider';
 import Price from './components/Price';
+import Needs from './components/Needs';
+import Card from './components/Card';
+import Support from './components/Support';
+import GetStart from './components/GetStart';
+import Footer from './components/Footer';
+import Card02 from './components/Card02';
 import styles from './style';
 
 
@@ -23,6 +29,12 @@ function App() {
       <Sec02 />
       <Sec03 />
       <Price />
+      <Needs />
+      <Card />
+      <Card02 />
+      <Support />
+      <GetStart />
+      <Footer />
   </main>
 
 

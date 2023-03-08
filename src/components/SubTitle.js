@@ -4,9 +4,13 @@ import styles from '../style'
 
 const SubTitle = () => {
   return (
-    <div className='bg-gray-100 m-auto flex'>
+    <div className='bg-gray-50 m-auto flex relative'>
     <div className=' h-1/2 w-1/2'></div>
-    <div className="message mt-20 mr-16 mb-16 w-2/3">
+    <div className="">
+      <div className="text-gray-100 absolute text-[300px] bottom-[20px] left-[-150px]">OUR</div>
+      <div className="text-gray-100 absolute text-[300px] top-20">USER</div>
+    </div>
+    <div className="message mt-20 mr-16 mb-16 w-2/3 z-10">
       <div className=' text-3xl mb-6 font-bold'>
         350万人の優秀そうが「想い」で通じ合える会社を待っています。
       </div>

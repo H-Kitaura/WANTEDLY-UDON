@@ -4,9 +4,9 @@ import styles from '../style';
 const TopImage = () => {
   return (
     <div className="ml-32 pt-40 ">
-    <div className={`${styles.title}`}>
-      <span className='font-bold'>想い</span>で<span className='font-bold '>つながる</span> 
-      <p><span className='font-bold'>採用</span>は<span className='font-bold'>強い</span></p>
+    <div className={`${styles.title} text-white`}>
+      <span className='font-bold'>想い</span><span className=" font-light">で</span><span className='font-bold '>つながる</span> 
+      <p><span className='font-bold'>採用</span><span className="font-light">は</span><span className='font-bold'>強い</span></p>
     </div>
     <div className="sub">
         Wantedlyは、あなたの会社が掲げる｢想い｣への共感を通じて、
@@ -19,3 +19,4 @@ const TopImage = () => {
 }
 
 export default TopImage
+

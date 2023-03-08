@@ -50,12 +50,14 @@ const styles = {
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
-  padding: "sm:px-16 px-6 sm:py-12 py-4",
+  padding: "sm:px-16 sm:py-12",
+  padding1: "sm:px-16 px-6 sm:py-12 py-4",
+
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
-  marginRightText: "mt-[128px] mr-[128px] ml-[98px] mb-0",
-  marginLeftText: "mt-[128px] mr-[98px] ml-[128px] mb-0",
+  marginRightText: "mt-[128px] mr-[64px] ml-[98px] mb-0",
+  marginLeftText: "mt-[128px] mr-[98px] ml-[64px] mb-0",
 
 
   absoluteCenter: "absolute top-[50%] right-[50%] translate-x-[50%] -translate-y-[50%]",

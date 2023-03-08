@@ -5,18 +5,22 @@ import styles from '../style';
 const Sec03 = () => {
   return (
   <section>
-    <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter}`}>
+    <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32 z-20`}>
         <div className={`${styles.boxWidth}${styles.marginLeftText}`}>
-          <div className={`${styles.heading1}`}>
+        <div className="z-10 space-x-6">
+          <div className="text-gray-100 absolute text-[150px] transform rotate-90">DIRECT</div>
+          <div className="text-gray-100 absolute text-[150px] transform rotate-90 left-[-50px]">SCOUT</div>
+        </div>
+          <div className={`${styles.heading1} relative`}>
             高返信率のスカウトで
           </div>
-          <div className="main">
+          <div className="relative">
             Wantedly上のプロフィールからスキルや経歴、この先やってみたいことなどを直接検索した上で、会いたい候補者へ直接メッセージを送信できます。応募を待たずに攻めの採用アクションにつなげられます。
           </div>
-          <div className="text-sky-400 mb-10">
+          <div className="text-sky-400 mb-10 relative">
             返信率20% / 柔軟な検索設定 / 自由なフォーマット
           </div>
-          <button className={`${styles.btn}`}>
+          <button className={`${styles.btn} relative`}>
             候補者を見る
           </button>
         </div>
