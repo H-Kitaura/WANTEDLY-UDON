@@ -25,7 +25,6 @@ const styles = {
   //frame
   outLine: "mx-auto p-0 min-h-full font-sans min-w-[980px]",
   headerOutLine: "flex justify-between mx-auto fixed top-0 w-full min-w-980px h-16 font-semibold leading-8 z-10",
-  sectionOutLine: "w-[1000px] h-[500px] mx-auto mt-20 p-0",
 
 
   // colors
