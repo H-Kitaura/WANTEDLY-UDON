@@ -13,7 +13,7 @@ const Price = () => {
                 Wantedlyは、運用の工夫で採用単価が抑えられ、使えば使うほどお客様に採用効果を感じていただけるよう、成果報酬のかからない毎月定額の料金モデルを採用しています。
               </div>
           </div>
-        <button className="absolute h-14 w-[220px] rounded-3xl bg-white text-gray-700 leading-10 text-[16px] mt-14 right-[120px]">料金表を見る</button>
+        <button className="absolute h-14 w-[220px] rounded-3xl shadow-md bg-white text-gray-700 leading-10 text-[16px] mt-14 right-[120px] hover:bg-gray-200">料金表を見る</button>
       </div>
   </section>
 )

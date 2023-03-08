@@ -27,7 +27,7 @@ const Sec01 = () => {
               <div className='text-sky-400 mb-10 relative'>
                 新卒・インターン / 中途・副業採用 / 全職種対応
               </div> 
-              <button className={`${styles.btn} relative`}>
+              <button className={`${styles.btn} relative hover:bg-gray-600`}>
                 募集を開始
               </button>
             </div>

@@ -79,7 +79,7 @@ const styles = {
   // elements
   buttonRedBig: "rounded-lg border-[3px] border-my-red text-my-red py-2 px-4 text-normal font-bold ",
   buttonBlueBig: "rounded-lg border-[3px] border-my-blue text-my-blue py-2 px-4 text-normal font-bold ",
-  btn: "bg-gray-800 text-white rounded-xl w-[160px] h-[36px] leading-9 ",
+  btn: "bg-gray-800 text-white rounded-xl w-[160px] h-[36px] leading-9 shadow-md ",
 
   // form
   formElementMarginBottom: "mb-3",

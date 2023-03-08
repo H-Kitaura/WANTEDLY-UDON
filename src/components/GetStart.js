@@ -17,17 +17,17 @@ const GetStart = () => {
         </div>
         <div className={`${styles.flexCenter} mt-20 relative`}>
                 <div>
-                  <div className="h-[150px] w-[250px] bg-white m-4"></div>
+                  <div className="h-[150px] w-[250px] bg-white m-4 shadow-2xl"></div>
                   <div className={`${styles.flexCenter} text-gray-400`}>まずは1ヶ月無料のトライアルにて</div>
                     <div className={`${styles.flexCenter} text-gray-400`}>お試しください</div>
                 </div>
                 <div>
-                  <div className="h-[150px] w-[250px] bg-white m-4"></div>
+                  <div className="h-[150px] w-[250px] bg-white m-4 shadow-2xl"></div>
                     <div className={`${styles.flexCenter} text-gray-400`}>募集の</div>
                     <div className={`${styles.flexCenter} text-gray-400`}>SNS広告配信</div>
                 </div>
                 <div>
-                  <div className="h-[150px] w-[250px] bg-white m-4"></div>
+                  <div className="h-[150px] w-[250px] bg-white m-4 shadow-2xl"></div>
                     <div className={`${styles.flexCenter} text-gray-400`}>プロによる</div>
                     <div className={`${styles.flexCenter} text-gray-400`}>動画撮影</div>
                 </div>

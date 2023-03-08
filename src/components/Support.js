@@ -13,7 +13,7 @@ const Support = () => {
               <div className="text-white text-sm mt-2 leading-7">
               Wantedly運用のコツをつかみ、採用成功につなげるための充実したオンラインセミナーや担当者サポートをご用意しています。              </div>
           </div>
-        <button className="absolute h-14 w-[220px] rounded-3xl bg-white text-gray-700 leading-10 text-[16px] mt-14 right-[120px]">担当に相談</button>
+        <button className="absolute h-14 w-[220px] rounded-3xl bg-white text-gray-700 shadow-md leading-10 text-[16px] mt-14 right-[120px] hover:bg-gray-200">担当に相談</button>
       </div>
   </section>
   )

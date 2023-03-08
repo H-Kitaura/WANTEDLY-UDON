@@ -39,7 +39,7 @@ const Needs = () => {
                 </div>
               </div>
               <div className= {`${styles.flexCenter} mt-20`}>
-              <button className="rounded-3xl w-[192px] bg-gray-200">オプションについて詳しく</button>
+              <button className="rounded-3xl w-[192px] shadow-md bg-gray-200 hover:bg-gray-400">オプションについて詳しく</button>
               </div>
           </div>
       </div>
