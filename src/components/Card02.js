@@ -28,7 +28,7 @@ const Card02 = () => {
                 </div>
               </div>
               <div className= {`${styles.flexCenter} mt-20`}>
-              <button className={`${styles.boxWidth} rounded-3xl w-[192px] bg-gray-200`}>オプションについて詳しく</button>
+              <button className="rounded-3xl w-[192px] bg-gray-200">オプションについて詳しく</button>
               </div>
           </div>
       </div>

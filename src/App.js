@@ -13,17 +13,16 @@ import Support from './components/Support';
 import GetStart from './components/GetStart';
 import Footer from './components/Footer';
 import Card02 from './components/Card02';
-import styles from './style';
+import User from './components/User';
 
 
 function App() {  
   return (
   <main>
-      <div className={`${styles.bg2Gradation}`}>
-        <Header />
-        <TopImage />
-        <Slider />
-      </div>  
+      <Header />
+      <TopImage />
+      <User />
+      <Slider />
       <SubTitle />
       <Sec01 />
       <Sec02 />
