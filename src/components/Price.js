@@ -4,7 +4,7 @@ import styles from "../style";
 const Price = () => {
   return (
     <section>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} mb-32`}>
         <div
           className={`${styles.bgTwoGradation} ${styles.boxWidth}relative z-20 flex flex-col md:flex-row`}
         >
