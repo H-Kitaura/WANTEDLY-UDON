@@ -4,7 +4,7 @@ import styles from '../style'
 const Price = () => {
   return (
     <section>
-      <div className={`p-[40px] mx-auto ${styles.boxWidth} ${styles.bg2Gradation} mx-auto relative shadow-xl flex`}>
+      <div className={`p-[40px] mx-auto ${styles.boxWidth} ${styles.bgTwoGradation} mx-auto relative shadow-xl flex`}>
           <div className="w-[600px]">
               <div className={`${styles.heading1} text-white`}>成果報酬なし。
                   <p> 採用コストを抑えられます。</p>

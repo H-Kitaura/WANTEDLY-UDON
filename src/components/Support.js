@@ -5,7 +5,7 @@ import styles from '../style'
 const Support = () => {
   return (
     <section>
-      <div className={`m-24 p-[40px] mx-auto ${styles.boxWidth} ${styles.bg2Gradation} mx-auto relative shadow-xl flex`}>
+      <div className={`m-24 p-[40px] mx-auto ${styles.boxWidth} ${styles.bgTwoGradation} mx-auto relative shadow-xl flex`}>
           <div className="w-[600px]">
               <div className={`${styles.heading1} text-white`}>
                 初めての方にも安心サポート

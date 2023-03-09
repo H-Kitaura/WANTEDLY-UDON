@@ -4,7 +4,7 @@ import styles from '../style';
 const TopImage = () => {
   return (
     <div className={`${styles.boxWidth}`}>
-      <div className={`${styles.bg2Gradation}`}>
+      <div className={`${styles.bgTwoGradation}`}>
         <div className="sm:ml-32 sm:pt-40 ">
           <div className={`${styles.title} text-white`}>
             <span className='font-bold'>想い</span><span className=" font-light">で</span><span className='font-bold '>つながる</span> 

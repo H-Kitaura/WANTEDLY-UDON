@@ -22,17 +22,13 @@
 
 const styles = {
 
-  //frame
-  outLine: "mx-auto p-0 min-h-full font-sans min-w-[980px]",
-  headerOutLine: "flex justify-between mx-auto fixed top-0 w-full min-w-980px h-16 font-semibold leading-8 z-10",
-
 
   // colors
   bgColor: "bg-white dark:bg-my-black",
-  bgSubColor: "bg-gray-100 dark:bg-neutral-900",
+  bgSubColor: "bg-gray-50 dark:bg-neutral-700",
   bgCardColor: "bg-stone-100 dark:bg-neutral-800",
   bgGradientColor: "bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 dark:from-neutral-800 dark:to-black",
-  bg2Gradation: "bg-gradient-to-bl from-[#618feb] to-[#32bdd9] ",
+  bgTwoGradation: "bg-gradient-to-bl from-[#618feb] to-[#32bdd9] ",
   textColor: "text-black dark:text-white",
   textMenuColor: "text-my-brown dark:text-white",
   textHeadingColor: "text-my-gray dark:text-white",

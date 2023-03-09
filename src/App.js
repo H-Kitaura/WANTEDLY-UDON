@@ -16,12 +16,12 @@ import Card02 from './components/Card02';
 import User from './components/User';
 
 
-function App() {  
+function App() {
   return (
   <main>
-      {/* <Header /> */}
+      <Header />
       <TopImage />
-      {/* <User />
+      <User />
       <Slider />
       <SubTitle />
       <Sec01 />
@@ -33,7 +33,7 @@ function App() {
       <Card02 />
       <Support />
       <GetStart />
-      <Footer /> */}
+      <Footer />
   </main>
 
 

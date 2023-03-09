@@ -1,13 +1,13 @@
-import React from 'react';
-import styles from '../style';
-const Sec02 = () => {
+import React from 'react'
+
+const Sec04 = () => {
   return (
     <section>
       <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}>
         <div className={`${styles.boxWidth}`}>
           <div className="flex flex-col md:flex-row overflow-hidden">
             <div className="h-[500px] md:min-w-[700px] bg-red-500"></div>
-            <div className={` ${styles.marginRightText} relative`}>
+            <div className={`flex items-center px-8 relative`}>
               {/* v---- have to set relative to use z index */}
               <div className="relative z-20">
                 <div className={`${styles.heading1}`}>
@@ -24,7 +24,7 @@ const Sec02 = () => {
                 </button>
               </div>
               <div className=" absolute -top-9 left-0 z-10">
-                <div className="text-gray-100 text-[150px] font-bold transform rotate-90 relative">YOUR</div>
+                <div className="text-gray-100 text-[150px] font-bold transform rotate-90">YOUR</div>
                 <div className="text-gray-100 text-[150px] font-bold transform rotate-90 absolute left-12">STORIES</div>
               </div>
             </div>
@@ -34,4 +34,5 @@ const Sec02 = () => {
     </section>
   )
 }
-export default Sec02
+
+export default Sec04
