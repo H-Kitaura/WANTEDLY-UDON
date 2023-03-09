@@ -14,7 +14,7 @@ const TopImage = () => {
             <p> 条件だけでは動かない優秀な人材にアプローチ。</p>
             <div className='text-xl mt-2 text-white font-bold'>条件や知名度、採用予算に左右されない採用を実現します。</div>
         </div>
-          <button className='h-14 w-80 rounded-xl bg-gray-700 text-white leading-10 text-base mt-14'>まずは、資料ダウンロード</button>
+          <button className='h-14 w-80 rounded-xl bg-gray-700 text-white leading-10 text-base mt-14 shadow-md hover:bg-gray-600'>まずは、資料ダウンロード</button>
       </div>
     </div>
 )

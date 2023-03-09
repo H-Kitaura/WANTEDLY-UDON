@@ -4,9 +4,9 @@ import styles from '../style';
 const Sec01 = () => {
   return (
   <section>
-    <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}>
-      <div className={`${styles.sectionOutLine}`}>
-          <div className={`${styles.title} ${styles.flexCenter}`}>
+    <div className={`${styles.padding}${styles.flexCenter} mb-32`}>
+      <div className={`${styles.boxWidth}`}>
+          <div className={`${styles.title} ${styles.flexCenter} relative`}>
             会社の｢想い｣が、見える、伝わる。
           </div>
           <div className='mt-6 text-center'>
@@ -27,7 +27,7 @@ const Sec01 = () => {
               <div className='text-sky-400 mb-10 relative'>
                 新卒・インターン / 中途・副業採用 / 全職種対応
               </div> 
-              <button className={`${styles.btn} relative`}>
+              <button className={`${styles.btn} relative hover:bg-gray-600`}>
                 募集を開始
               </button>
             </div>

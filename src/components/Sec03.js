@@ -20,7 +20,7 @@ const Sec03 = () => {
           <div className="text-sky-400 mb-10 relative">
             返信率20% / 柔軟な検索設定 / 自由なフォーマット
           </div>
-          <button className={`${styles.btn} relative`}>
+          <button className={`${styles.btn} relative hover:bg-gray-600`}>
             候補者を見る
           </button>
         </div>

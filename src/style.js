@@ -25,7 +25,6 @@ const styles = {
   //frame
   outLine: "mx-auto p-0 min-h-full font-sans min-w-[980px]",
   headerOutLine: "flex justify-between mx-auto fixed top-0 w-full min-w-980px h-16 font-semibold leading-8 z-10",
-  sectionOutLine: "w-[1000px] h-[500px] mx-auto mt-20 p-0",
 
 
   // colors
@@ -79,7 +78,7 @@ const styles = {
   // elements
   buttonRedBig: "rounded-lg border-[3px] border-my-red text-my-red py-2 px-4 text-normal font-bold ",
   buttonBlueBig: "rounded-lg border-[3px] border-my-blue text-my-blue py-2 px-4 text-normal font-bold ",
-  btn: "bg-gray-800 text-white rounded-xl w-[160px] h-[36px] leading-9 ",
+  btn: "bg-gray-800 text-white rounded-xl w-[160px] h-[36px] leading-9 shadow-md ",
 
   // form
   formElementMarginBottom: "mb-3",
