@@ -16,9 +16,9 @@ import Card02 from './components/Card02';
 import User from './components/User';
 
 
-function App() {  
+function App() {
   return (
-  <main>
+    <main>
       <Header />
       <TopImage />
       <User />
@@ -34,7 +34,7 @@ function App() {
       <Support />
       <GetStart />
       <Footer />
-  </main>
+    </main>
 
 
 
