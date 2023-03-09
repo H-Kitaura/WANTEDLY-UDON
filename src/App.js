@@ -19,21 +19,21 @@ import User from './components/User';
 function App() {
   return (
   <main>
-      <Header />
+      {/* <Header /> */}
       <TopImage />
       <User />
       <Slider />
-      <SubTitle />
-      <Sec01 />
+      {/* <SubTitle /> */}
+      {/* <Sec01 /> */}
       <Sec02 />
-      <Sec03 />
+      {/* <Sec03 /> */}
       <Price />
       <Needs />
-      <Card />
-      <Card02 />
-      <Support />
-      <GetStart />
-      <Footer />
+      {/* <Card /> */}
+      {/* <Card02 /> */}
+      {/* <Support /> */}
+      {/* <GetStart /> */}
+      {/* <Footer /> */}
   </main>
 
 

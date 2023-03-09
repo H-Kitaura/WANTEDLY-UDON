@@ -1,38 +1,20 @@
-import React from 'react'
-
-const Sec04 = () => {
-  return (
-    <section>
-      <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}>
-        <div className={`${styles.boxWidth}`}>
-          <div className="flex flex-col md:flex-row overflow-hidden">
-            <div className="h-[500px] md:min-w-[700px] bg-red-500"></div>
-            <div className={`flex items-center px-8 relative`}>
-              {/* v---- have to set relative to use z index */}
-              <div className="relative z-20">
-                <div className={`${styles.heading1}`}>
-                  広く届くストーリーで
-                </div>
-                <div className="">
-                  募集では伝えきれない自社の魅力を気軽に発信し、候補者のファン化につなげることができます。検索エンジンやSNS経由での流入に強い採用ホームページとしてもお使いいただけます。
-                </div>
-                <div className="text-sky-400 mb-10">
-                  採用広報 / 社員インタビュー / ブランディング
-                </div>
-                <button className={`${styles.btn}`}>
-                  会社ページを作る
-                </button>
-              </div>
-              <div className=" absolute -top-9 left-0 z-10">
-                <div className="text-gray-100 text-[150px] font-bold transform rotate-90">YOUR</div>
-                <div className="text-gray-100 text-[150px] font-bold transform rotate-90 absolute left-12">STORIES</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div className={` ${styles.bgColor} ${styles.flexCenter}`}>
+<div className={`${styles.boxWidth}`}>
+  <div className={`${styles.bgSubColor} ${styles.textColor} flex-col md:flex-row z-20 relative`}>
+    <div className=" absolute z-10">
+      <div className="text-gray-100 text-[100px] relative">OUR</div>
+      <div className="text-gray-100 text-[100px] absolute">USER</div>
+    </div>
+    <div className="h-1/2 md:min-w-[500px] px-2"></div>
+    <div className={`${styles.paddingY} ${styles.paddingX}`}>
+      <div className=' text-3xl mb-6 font-bold'>
+        350万人の優秀そうが「想い」で通じ合える会社を待っています。
       </div>
-    </section>
-  )
-}
-
-export default Sec04
+      <div className={`${styles.subText}`}>
+        求人サイトの条件比較や、第3者による釈行紹介よりも、自分の価値観に照らし合わせて充実した仕事を選びたい.......
+        Wantedlyにはそんな意欲に満ちたユーザーが幅広い職種から集まっています。仕事のやりがいや、事業の社会的意義の発信を通じて、自社に本当にマッチする人材と出会を実現しましょう。
+      </div>
+    </div>
+  </div>
+</div>
+</div>
