@@ -44,7 +44,7 @@ const styles = {
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
-  flexEnd: "flex justify-center items-end",
+  flexEnd: "sm:flex items-end",
   flexBetween: "flex space-x-4 fixed",
 
   paddingX: "sm:px-16 px-6",
@@ -79,6 +79,7 @@ const styles = {
   buttonRedBig: "rounded-lg border-[3px] border-my-red text-my-red py-2 px-4 text-normal font-bold ",
   buttonBlueBig: "rounded-lg border-[3px] border-my-blue text-my-blue py-2 px-4 text-normal font-bold ",
   btn: "bg-gray-800 text-white rounded-xl w-[160px] h-[36px] leading-9 shadow-md ",
+  buttonGrayBig: "h-14 w-80 rounded-xl bg-gray-700 text-white leading-10 text-base mt-14 mb-14 shadow-md hover:bg-gray-600",
 
   // form
   formElementMarginBottom: "mb-3",

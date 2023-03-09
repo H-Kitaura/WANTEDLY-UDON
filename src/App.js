@@ -19,9 +19,9 @@ import User from './components/User';
 function App() {  
   return (
   <main>
-      <Header />
+      {/* <Header /> */}
       <TopImage />
-      <User />
+      {/* <User />
       <Slider />
       <SubTitle />
       <Sec01 />
@@ -33,7 +33,7 @@ function App() {
       <Card02 />
       <Support />
       <GetStart />
-      <Footer />
+      <Footer /> */}
   </main>
 
 
