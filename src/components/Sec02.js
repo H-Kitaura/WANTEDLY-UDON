@@ -2,16 +2,20 @@ import React from 'react';
 import styles from '../style';
 
 
-const Sec02 = () => {
+const Sec02 = ({ reverse = false }) => {
   return (
     <section>
       <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} my-16`}>
         <div className={`${styles.boxWidth}`}>
           <div className="flex flex-col md:flex-row overflow-hidden">
-            <div className="h-[500px] md:min-w-[700px] bg-red-500 z-20"></div>
-            <div className={`flex items-center px-8 relative`}>
+            {/* ---------> only edit from here */}
+            <div className="h-[500px] md:min-w-[700px] bg-red-500 text-white z-20 md:order-2 flex items-center justify-center">
+              <p>dammy image</p>
+            </div>
+            {/* v---- grid should be used instead of absolute to overlap the element */}
+            <div className={`grid grid-rows-1 grid-cols-1 items-center px-8 relative ${reverse ? "md:order-1" : "md:order-3"}`}>
               {/* v---- have to set relative to use z index */}
-              <div className="relative z-20">
+              <div className="col-start-1 row-start-1 z-20">
                 <div className={`${styles.heading1}`}>
                   広く届くストーリーで
                 </div>
@@ -25,11 +29,14 @@ const Sec02 = () => {
                   会社ページを作る
                 </button>
               </div>
-              <div className=" absolute -top-9 left-0 z-10">
-                <div className="text-gray-100 text-[150px] font-bold transform rotate-90">YOUR</div>
-                <div className="text-gray-100 text-[150px] font-bold transform rotate-90 absolute left-12">STORIES</div>
+              <div className={`col-start-1 row-start-1 z-10 transform rotate-90 ${reverse ? "-translate-x-[30%]" : "translate-x-[30%]"}`}>
+                <div className="text-gray-100 text-[150px] font-bold leading-[190px]">YOUR</div>
+                <div className="text-gray-100 text-[150px] font-bold -translate-y-12 leading-[150px]">STORIES</div>
+                {/* <div className="text-gray-100 text-[150px] font-bold translate-y-12">YOUR</div>
+                  <div className="text-gray-100 text-[150px] font-bold -translate-y-12">STORIES</div> */}
               </div>
             </div>
+            {/* <--------- only edit until here */}
           </div>
         </div>
       </div>

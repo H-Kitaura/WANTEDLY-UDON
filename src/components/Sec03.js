@@ -4,13 +4,13 @@ import styles from '../style';
 
 const Sec03 = () => {
   return (
-  <section>
-    <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32 z-20`}>
+    <section>
+      <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32 z-20`}>
         <div className={`${styles.boxWidth}${styles.marginLeftText}`}>
-        <div className="z-10 space-x-6">
-          <div className="text-gray-100 absolute text-[150px] transform rotate-90">DIRECT</div>
-          <div className="text-gray-100 absolute text-[150px] transform rotate-90 left-[-50px]">SCOUT</div>
-        </div>
+          <div className="z-10 space-x-6">
+            <div className="text-gray-100 absolute text-[150px] transform rotate-90">DIRECT</div>
+            <div className="text-gray-100 absolute text-[150px] transform rotate-90 left-[-50px]">SCOUT</div>
+          </div>
           <div className={`${styles.heading1} relative`}>
             高返信率のスカウトで
           </div>
@@ -25,8 +25,8 @@ const Sec03 = () => {
           </button>
         </div>
         <div className="h-[500px] w-[800px] bg-red-500"></div>
-    </div>
-  </section>
+      </div>
+    </section>
   )
 }
 
