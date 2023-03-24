@@ -13,7 +13,7 @@ const SectionImageAndText = ({
   return (
     <section>
       <div
-        className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}
+        className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-28`}
       >
         <div className={`${styles.boxWidth}`}>
           <div className="flex flex-col md:flex-row overflow-hidden">
@@ -45,8 +45,6 @@ const SectionImageAndText = ({
                 <div className="text-gray-100 text-[150px] font-bold -translate-y-12 leading-[150px]">
                   {bgText2}
                 </div>
-                {/* <div className="text-gray-100 text-[150px] font-bold translate-y-12">YOUR</div>
-                  <div className="text-gray-100 text-[150px] font-bold -translate-y-12">STORIES</div> */}
               </div>
             </div>
             {/* <--------- only edit until here */}
