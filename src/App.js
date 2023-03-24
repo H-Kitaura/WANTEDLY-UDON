@@ -1,21 +1,17 @@
-import './App.css';
-import Header from './components/Header';
-import Sec01 from './components/Sec01';
-import Sec02 from './components/Sec02';
-import Sec03 from './components/Sec03new';
-import TopImage from './components/TopImage';
-import SubTitle from './components/SubTitle';
-import Slider from './components/Slider';
-import Price from './components/Price';
-import Needs from './components/Needs';
-import Card from './components/Card';
-import Support from './components/Support';
-import GetStart from './components/GetStart';
-import Footer from './components/Footer';
-import Card02 from './components/Card02';
-import User from './components/User';
-import SectionImageAndText from './components/SectionImageAndText';
-
+import "./App.css";
+import Header from "./components/Header";
+import TopImage from "./components/TopImage";
+import SubTitle from "./components/SubTitle";
+import Slider from "./components/Slider";
+import Price from "./components/Price";
+import Needs from "./components/Needs";
+import Card from "./components/Card";
+import Support from "./components/Support";
+import GetStart from "./components/GetStart";
+import Footer from "./components/Footer";
+import Card02 from "./components/Card02";
+import User from "./components/User";
+import SectionImageAndText from "./components/SectionImageAndText";
 
 function App() {
   return (
@@ -32,7 +28,8 @@ function App() {
         attribute="新卒・インターン / 中途・副業採用 / 全職種対応"
         buttonText="募集を開始"
         bgText1="JOB"
-        bgText2="POSTING" />
+        bgText2="POSTING"
+      />
       <SectionImageAndText
         reverse={true}
         title="広く届くストーリーで"
@@ -40,7 +37,8 @@ function App() {
         attribute="採用広報 / 社員インタビュー / ブランディング"
         buttonText="会社ページを作る"
         bgText1="YOUR"
-        bgText2="STORIES" />
+        bgText2="STORIES"
+      />
       <SectionImageAndText
         reverse={false}
         title="高返信率のスカウトで"
@@ -48,7 +46,8 @@ function App() {
         attribute="返信率20% / 柔軟な検索設定 / 自由なフォーマット"
         buttonText="候補者を見る"
         bgText1="DIRECT"
-        bgText2="SCOUT" />
+        bgText2="SCOUT"
+      />
       <Price />
       <Needs />
       <Card />
@@ -57,10 +56,6 @@ function App() {
       <GetStart />
       <Footer />
     </main>
-
-
-
-
   );
 }
 

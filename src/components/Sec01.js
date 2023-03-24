@@ -4,10 +4,10 @@ import styles from '../style';
 const Sec01 = () => {
   return (
   <section>
-    <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}>
+    <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} my-16`}>
       <div className={`${styles.boxWidth}`}>
         {/* Title */}
-        <div className="relative z-20">
+        <div className="relative z-20 mb-10">
           <div className={`${styles.flexCenter} ${styles.title}`}>
             会社の｢想い｣が、見える、伝わる。
           </div>
@@ -18,7 +18,7 @@ const Sec01 = () => {
         {/* Title */}
         {/* Main */}
           <div className="flex flex-col md:flex-row overflow-hidden">
-            <div className={`${styles.marginLeftText} relative z-20`}>
+            <div className="py-10 items-center justify-center relative z-20">
               <div className={`${styles.heading1}`}>
                 掲載し放題の募集で
               </div>

@@ -5,7 +5,7 @@ import styles from '../style';
 const Sec02 = ({ reverse = false }) => {
   return (
     <section>
-      <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}>
+      <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} my-16`}>
         <div className={`${styles.boxWidth}`}>
           <div className="flex flex-col md:flex-row overflow-hidden">
             {/* ---------> only edit from here */}

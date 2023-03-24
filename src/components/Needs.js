@@ -1,50 +1,57 @@
-import React from 'react'
-import styles from '../style'
-
+import React from "react";
+import styles from "../style";
 
 const Needs = () => {
   return (
     <section>
-      <div className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} z-20 relative`}>
-        <div className="z-10 text-center">
-          <div className="text-gray-100 absolute text-[300px] top-[1px] left-[-150px]">OPTIONS</div>
-        </div>
-          <div className={`${styles.boxWidth} m-[64px] z-20`}>
-            <div className={`${styles.title}`}>採用ニーズに合わせてカスタマイズ</div>
-              <div className={`${styles.flexCenter}`}>
-                <div>
-                  <div className="h-[140px] w-[140px] bg-red-200 m-4"></div>
-                    <div className={`${styles.flexCenter}`}>ダイレクト</div>
-                    <div className={`${styles.flexCenter}`}>スカウト</div>
-                </div>
-                <div>
-                  <div className="h-[140px] w-[140px] bg-red-200 m-4"></div>
-                    <div className={`${styles.flexCenter}`}>募集の</div>
-                    <div className={`${styles.flexCenter}`}>SNS広告配信</div>
-                </div>
-                <div>
-                  <div className="h-[140px] w-[140px] bg-red-200 m-4 "></div>
-                    <div className={`${styles.flexCenter}`}>ライティング</div>
-                    <br />
-                </div>
-                <div>
-                  <div className="h-[140px] w-[140px] bg-red-200 m-4"></div>
-                    <div className={`${styles.flexCenter}`}>フォトグラファー</div>
-                    <div className={`${styles.flexCenter}`}>派遣</div>
-                </div>
-                <div>
-                  <div className="h-[140px] w-[140px] bg-red-200 m-4"></div>
-                    <div className={`${styles.flexCenter}`}>プロによる</div>
-                    <div className={`${styles.flexCenter}`}>動画撮影</div>
-                </div>
-              </div>
-              <div className= {`${styles.flexCenter} mt-20`}>
-              <button className="rounded-3xl w-[192px] shadow-md bg-gray-200 hover:bg-gray-400">オプションについて詳しく</button>
-              </div>
+      <div
+        className={`${styles.padding} ${styles.bgColor} ${styles.flexCenter} mb-32`}
+      >
+        {/* <div className="text-center z-10 text-gray-100 text-[300px] left-[-150px] absolute">
+          OPTIONS
+        </div> */}
+        <div className={`${styles.boxWidth}`}>
+          <div
+            className={`${styles.title} flex flex-col sm:flex-row m-[32px] z-20 relative`}
+          >
+            採用ニーズに合わせてカスタマイズ
           </div>
+          <div className={`${styles.flexCenter}overflow-hidden sm:space-x-6`}>
+            <div className="text-center">
+              <div className="h-[140px] w-[140px] bg-red-200"></div>
+              <div>ダイレクト</div>
+              <div>スカウト</div>
+            </div>
+            <div className="text-center">
+              <div className="h-[140px] w-[140px] bg-red-200"></div>
+              <div>募集の</div>
+              <div>SNS広告配信</div>
+            </div>
+            <div className="text-center">
+              <div className="h-[140px] w-[140px] bg-red-200"></div>
+              <div>ライティング</div>
+              <br />
+            </div>
+            <div className="text-center">
+              <div className="h-[140px] w-[140px] bg-red-200"></div>
+              <div>フォトグラファー</div>
+              <div>派遣</div>
+            </div>
+            <div className="text-center">
+              <div className="h-[140px] w-[140px] bg-red-200"></div>
+              <div>プロによる</div>
+              <div>動画撮影</div>
+            </div>
+          </div>
+          <div className={`${styles.flexCenter} mt-10 sm:mt-20`}>
+            <button className="rounded-3xl w-[192px] shadow-md bg-gray-200 hover:bg-gray-400">
+              オプションについて詳しく
+            </button>
+          </div>
+        </div>
       </div>
     </section>
-)
-}
+  );
+};
 
-export default Needs
+export default Needs;
